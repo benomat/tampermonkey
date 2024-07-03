@@ -8,8 +8,8 @@
 // @supportURL   https://discord.gg/gUMYGXqPPw
 // @match        https://linkvertise.com/*dynamic?r=*
 // @icon         https://whimper.xyz/image.png
-// @downloadURL https://raw.githubusercontent.com/benomat/tampermonkey/m/LVDynamic.js
-// @updateURL https://raw.githubusercontent.com/benomat/tampermonkey/m/LVDynamic.js
+// @downloadURL https://raw.githubusercontent.com/benomat/tampermonkey/m/LVDynamic.user.js
+// @updateURL https://raw.githubusercontent.com/benomat/tampermonkey/m/LVDynamic.user.js
 // @grant        none
 // ==/UserScript==
 
