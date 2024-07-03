@@ -7,7 +7,7 @@
 // @author       benomat
 // @supportURL   https://discord.gg/gUMYGXqPPw
 // @match        https://linkvertise.com/*dynamic?r=*
-// @icon         https://files.catbox.moe/kflwuj.png
+// @icon         https://whimper.xyz/image.png
 // @downloadURL https://raw.githubusercontent.com/benomat/tampermonkey/m/LVDynamic.js
 // @updateURL https://raw.githubusercontent.com/benomat/tampermonkey/m/LVDynamic.js
 // @grant        none
