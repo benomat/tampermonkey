@@ -34,7 +34,7 @@
              window.location.href.startsWith("https://lootdest.com/s?15e1e695")) {
         setTimeout(function() {
             window.location.href = "https://key.getwave.gg/freemium-tasks";
-        }, 20000);
+        }, 10000);
     }
 })();
 
