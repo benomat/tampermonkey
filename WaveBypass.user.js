@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name         Wave Bypasser
 // @homepageURL  https://discord.gg/gUMYGXqPPw
-// @namespace    https://raw.githubusercontent.com/benomat/tampermonkey/m/WaveBypass.user.js
-// @version      1.0
+// @namespace    https://whimper.xyz/WaveBypass.user.js
+// @version      1.1
 // @description  Bypass wave keys like a charm
 // @author       benomat
 // @supportURL   https://discord.gg/gUMYGXqPPw
 // @icon         https://whimper.xyz/image.png
-// @downloadURL https://raw.githubusercontent.com/benomat/tampermonkey/m/WaveBypass.user.js
-// @updateURL https://raw.githubusercontent.com/benomat/tampermonkey/m/WaveBypass.user.js
+// @downloadURL https://whimper.xyz/WaveBypass.user.js
+// @updateURL https://whimper.xyz/WaveBypass.user.js
 // @match        https://key.getwave.gg/*
 // @match        https://lootdest.com/s?da8a5a9c*
 // @match        https://loot-link.com/s?a71a5892*
@@ -26,7 +26,7 @@
                 element.click();
             });
         }
-        setTimeout(clickOnCursorPointer, 2500);
+        setTimeout(clickOnCursorPointer, 300);
     }
     else if (window.location.href.startsWith("https://lootdest.com/s?da8a5a9c") ||
              window.location.href.startsWith("https://loot-link.com/s?a71a5892") ||
@@ -34,7 +34,7 @@
              window.location.href.startsWith("https://lootdest.com/s?15e1e695")) {
         setTimeout(function() {
             window.location.href = "https://key.getwave.gg/freemium-tasks";
-        }, 10000);
+        }, 15000);
     }
 })();
 
